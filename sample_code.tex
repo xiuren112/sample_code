@@ -1,0 +1,96 @@
+% =============================================
+% Sample LaTeX Code
+% Author: https://github.com/xiuren112
+% Date: 2026-01-05
+% Description: Sample document with sections, math, and examples
+% =============================================
+
+\documentclass[12pt]{article}
+
+% Packages for production-quality documents
+\usepackage[utf8]{inputenc}   % UTF-8 encoding
+\usepackage[T1]{fontenc}      % Font encoding
+\usepackage{lmodern}          % Better fonts
+\usepackage{geometry}         % Page layout
+\usepackage{amsmath, amssymb} % Math symbols
+\usepackage{hyperref}         % Hyperlinks
+\usepackage{xcolor}           % Color text
+\usepackage{graphicx}         % Include graphics
+
+% Page layout
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm
+}
+
+\title{Sample LaTeX Document}
+\author{https://github.com/xiuren112}
+\date{2026-01-05}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% ==========================
+\section{Introduction}
+This is a sample LaTeX document demonstrating a clean, production-ready structure. 
+It includes sections, equations, lists, and examples.
+
+% ==========================
+\section{Mathematical Examples}
+
+Here is a simple equation:
+
+\[
+E = mc^2
+\]
+
+Inline math example: The area of a circle is \( A = \pi r^2 \).
+
+% --------------------------
+\subsection{Multiple Equations}
+\begin{align}
+a^2 + b^2 &= c^2 \\
+e^{i\pi} + 1 &= 0
+\end{align}
+
+% ==========================
+\section{Lists}
+
+\subsection{Bullet List}
+\begin{itemize}
+    \item First item
+    \item Second item
+    \item Third item
+\end{itemize}
+
+\subsection{Numbered List}
+\begin{enumerate}
+    \item Step one
+    \item Step two
+    \item Step three
+\end{enumerate}
+
+% ==========================
+\section{Figures}
+
+% Example of including an image (replace 'example.png' with your image)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example.png}
+    \caption{Sample figure}
+    \label{fig:sample}
+\end{figure}
+
+% ==========================
+\section{Conclusion}
+
+This document demonstrates how to create a **production-ready LaTeX file**. 
+It has proper structure, sections, math, figures, and lists.
+
+\end{document}
